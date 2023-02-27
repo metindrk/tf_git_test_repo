@@ -9,7 +9,7 @@ on:
         default: 'yes'
 
 env:
-  TF_VAR_token: ${{ secrets.CUSTOM_TOKEN }}
+  TF_VAR_git_tf: ${{ secrets.CUSTOM_TOKEN }}
 
 defaults:
   run:
